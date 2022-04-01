@@ -1,6 +1,7 @@
 import cv2
-filePath = 'A.jpg'
-windowTitle = 'Wow awesome di ba'
+
+filePath = 'ILOVEJOY.png'
+windowTitle = '<3'
 readCvImage = cv2.imread(filePath, 1)
 cv2.imshow(windowTitle, readCvImage)
 cv2.waitKey(0)
